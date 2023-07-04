@@ -1,4 +1,3 @@
-# trainee-shopify-interview-1
 # Shopify Developer - Technical Test 👨‍💻
 
 Welcome to the Shopify Developer Technical Test! This test is designed to assess your skills and knowledge in Shopify development. The objective is to complete all sections within 1 hour ⏰.
