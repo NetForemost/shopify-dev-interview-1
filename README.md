@@ -37,16 +37,14 @@ Please note that the test focuses on the topics mentioned above. No point in the
 Please set up a development store by creating a Shopify account or using an existing one. Once your store is set up, import the product_template.csv, you will find this file on the assets. Also, create at least one collection and assign some of the created products. This will help organize your products within the store.
 
 ## Task 2
-Build a basic featured image using the file called featured-image.liquid on the sections folder.
+Build a basic featured image section using the file called featured-image.liquid on the sections folder.
 Please take into account the following items:
 1. Try to follow this [Figma](https://www.figma.com/file/b2oGIEYWNld78JaMSVpgLI/Shopify-Dev-Technical-Test?type=design&node-id=0%3A1&mode=design&t=ZSbknG6dI9b596C3-1).
 1. A button is missing in the section, you should implement a basic JSON schema in order to display a button.
 2. You should create the html and styles for this new section.
 
 ## Task 3
-On the cart page, before going to the checkout, show a popup with the products that a user is buying, this theme files
-contains a snippet that shows a modal before going to the checkout, and the modal content has this id "modal-content".
-The goal should be to use the /cart.js endpoint to get the cart information and show it in the modal-content.
+On the cart page, before going to checkout, show a popup with the products that a user is buying, this repository contains a snippet that shows a modal before going to checkout, and the content of the modal has the "modal-content" id. The goal should be to use the /cart.js endpoint to get the cart information and display it in the modal-content.
 
 # Extra Task (Only if there is still time left)
 Add the featured collection section and make it similar to the design on this [Figma](https://www.figma.com/file/b2oGIEYWNld78JaMSVpgLI/Shopify-Dev-Technical-Test?type=design&node-id=0%3A1&mode=design&t=ZSbknG6dI9b596C3-1).
