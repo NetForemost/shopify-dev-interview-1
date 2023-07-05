@@ -6,8 +6,9 @@ Welcome to the Shopify Developer Technical Test! This test is designed to assess
 In this test, you will work with a blank Shopify store and the provided requirements to create a functional store that covers the following topics:
 
 - Basic Shopify store setup
-- Customization of the theme using Liquid
 - Product and collection management
+- Customization of the theme using Liquid
+- Advance customization using javascript
 
 ## Assessment 📋
 Your work will be evaluated based on the following criteria:
