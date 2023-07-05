@@ -40,7 +40,7 @@ Please set up a development store by creating a Shopify account or using an exis
 Build a basic featured image using the file called featured-image.liquid on the sections folder.
 Please take into account the following items:
 1. Try to follow this [Figma](https://www.figma.com/file/b2oGIEYWNld78JaMSVpgLI/Shopify-Dev-Technical-Test?type=design&node-id=0%3A1&mode=design&t=ZSbknG6dI9b596C3-1).
-1. A button is missing in the section, you should implement a basic JSON Schema to be able show a button.
+1. A button is missing in the section, you should implement a basic JSON schema in order to display a button.
 2. You should create the html and styles for this new section.
 
 ## Task 3
