@@ -5,37 +5,51 @@ Welcome to the Shopify Developer Technical Test! This test is designed to assess
 ## Description 📝
 In this test, you will work with a blank Shopify store and the provided requirements to create a functional store that covers the following topics:
 
-- Basic Shopify store setup 🛍️
-- Customization of the theme using Liquid 🎨
-- Product and collection management 📦
+- Basic Shopify store setup
+- Customization of the theme using Liquid
+- Product and collection management
 
 ## Assessment 📋
 Your work will be evaluated based on the following criteria:
 
-- Quality, readability, and documentation of the code ✨
-- Adherence to code conventions and best practices 📚
-- Consideration of performance aspects ⚙️
+- Quality, readability, and documentation of the code
+- Adherence to code conventions and best practices
+- Consideration of performance aspects
 
 ## About ℹ️
-To support you in completing the test, we have provided some resources to investigate:
+As part of our commitment to provide the necessary tools, documentation about the topics covered in the test is attached below, however, it is expected that the developer will investigate further and can provide more knowledge.
 
-- [Official Shopify Documentation](https://help.shopify.com/) 📚
-- [Shopify Theme Development Guide](https://shopify.dev/docs/themes) 🎨
-- [Shopify schema data](https://shopify.dev/docs/themes/architecture/config/settings-data-json) ⚙️
-- [Liquid Templating Reference](https://shopify.dev/docs/themes/liquid/reference) 🔧
-- [Free stock Images](https://burst.shopify.com/) 🖼️
+- [Official Shopify Documentation](https://help.shopify.com/)
+- [Shopify Theme Development Guide](https://shopify.dev/docs/themes)
+- [Shopify schema data](https://shopify.dev/docs/themes/architecture/config/settings-data-json)
+- [Liquid Templating Reference](https://shopify.dev/docs/themes/liquid/reference)
+- [Free stock Images](https://burst.shopify.com/)
 
 Please note that the test focuses on the topics mentioned above. No point in the actual test will be about anything that has not been mentioned in this document.
 
-## Instructions 📌
-1. Create a development store.
-2. Create at least 5 products (You can use placeholders).
-3. Create at least one collection and assign some products.
-4. Clone this repository to your local machine.
-5. Upload these files to the created store.
-6. Implement the following tasks
 
+## Notes
+- * Use the files on this repository, to complete the tasks.
+- * Imagine that you are going to build a store that sells coffee.
+
+## Task 1
+Please set up a development store by creating a Shopify account or using an existing one. Once your store is set up, import the product_template.csv, you will find this file on the assets. Also, create at least one collection and assign some of the created products. This will help organize your products within the store.
+
+## Task 2
+Build a basic featured image using the file called featured-image.liquid on the sections folder.
+Please take into account the following items:
+1. Try to follow the following [Figma](https://www.figma.com/file/b2oGIEYWNld78JaMSVpgLI/Shopify-Dev-Technical-Test?type=design&node-id=0%3A1&mode=design&t=ZSbknG6dI9b596C3-1).
+1. A button is missing in the section, you should implement a basic JSON Schema to be able show a button.
+2. You should create the html and styles for this new section.
+
+## Task 3
+On the cart page, before going to the checkout, show a popup with the products that a user is buying, this theme files
+contains a snippet that shows a modal before going to the checkout, and the modal content has this id "modal-content".
+The goal should be to use the /cart.js endpoint to get the cart information and show it in the modal-content.
+
+# Extra Task (Only if there is still time left)
+Add the featured collection section and make it similar to the design on this [Figma](https://www.figma.com/file/b2oGIEYWNld78JaMSVpgLI/Shopify-Dev-Technical-Test?type=design&node-id=0%3A1&mode=design&t=ZSbknG6dI9b596C3-1).
 
 Please carefully read all the instructions and requirements before starting the test.
 
-Good luck with the test! 🙌
+Good luck with the test!

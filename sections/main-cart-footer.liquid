@@ -66,14 +66,27 @@
                 </noscript>
 
                 <button
-                  type="submit"
+                  type="button"
                   id="checkout"
+                  class="cart__checkout-button button"
+                  {% if cart == empty %}
+                    disabled
+                  {% endif %}
+                  @click="showModal = true"
+                >
+                  {{ 'sections.cart.checkout' | t }}
+                </button>
+
+                <button
+                  type="submit"
+                  id="checkout-submit"
                   class="cart__checkout-button button"
                   name="checkout"
                   {% if cart == empty %}
                     disabled
                   {% endif %}
                   form="cart"
+                  style="display: none;"
                 >
                   {{ 'sections.cart.checkout' | t }}
                 </button>

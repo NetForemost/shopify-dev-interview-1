@@ -1,0 +1,35 @@
+<!-- Modal -->
+<div class="modal" x-show="showModal" x-cloak>
+  <div class="modal-overlay" @click.away="showModal = false"></div>
+
+  <div class="modal-container">
+    <!-- Modal content -->
+    <div class="modal-content" id="modal-content">
+        <h2>Modal Title</h2>
+        <p>This is the modal content.</p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="modal-buttons">
+        <!-- Close button -->
+        <button type="button" @click="showModal = false" class="button button--tertiary" style="font-weight: bold;background: #e5e5e5;">
+            Close
+        </button>
+
+        <!-- Continue button -->
+        <button type="button" @click="showModal = false" class="button button--tertiary" onclick="goToCheckout()" style="font-weight: bold;background: black; color: white;">
+            Continue
+        </button>
+    </div>
+  </div>
+</div>
+
+<script>
+    function goToCheckout(){
+        let checkoutBtn = document.querySelector("#checkout-submit");
+        if(!checkoutBtn){
+            return;
+        }
+        checkoutBtn.click();
+    }
+</script>
