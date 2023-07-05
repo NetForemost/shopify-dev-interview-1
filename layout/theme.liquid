@@ -322,24 +322,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function(){
-        let checkoutBtn = document.querySelector("#checkout");
-        checkoutBtn.addEventListener("click", function(event){
-          event.preventDefault();
-        });
-      });
-
-        function showCartDetails(){
-          fetch("/cart.js")
-          .then(response => response.json())
-          .then(data => {
-            console.log(data);
-          });
-          
-          return false;
-        }
-    </script>
   </body>
 </html>
