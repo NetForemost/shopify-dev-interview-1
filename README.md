@@ -8,7 +8,7 @@ In this test, you will work with a blank Shopify store and the provided requirem
 - Basic Shopify store setup
 - Product and collection management
 - Customization of the theme using Liquid
-- Advance customization using javascript
+- Advanced customization using javascript
 
 ## Assessment 📋
 Your work will be evaluated based on the following criteria:
