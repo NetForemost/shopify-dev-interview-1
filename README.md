@@ -44,7 +44,7 @@ Please take into account the following items:
 2. You should create the html and styles for this new section.
 
 ## Task 3
-On the cart page, before going to checkout, show a popup with the products that a user is buying, this repository contains a snippet that shows a modal before going to checkout, and the content of the modal has the "modal-content" id. The goal should be to use the /cart.js endpoint to get the cart information and display it in the modal-content.
+Update the content of a existing popup that appears when the "Checkout" button is clicked on the cart page. The popup is already functional, and its content is identified by the "modal-content" ID. The goal is to use the "/cart.json" endpoint to fetch the latest cart information and update the content dynamically within the popup.
 
 # Extra Task (Only if there is still time left)
 Add the featured collection section and make it similar to the design on this [Figma](https://www.figma.com/file/b2oGIEYWNld78JaMSVpgLI/Shopify-Dev-Technical-Test?type=design&node-id=0%3A1&mode=design&t=ZSbknG6dI9b596C3-1).
